@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc19663-c204-4d0b-87f8-70b7b6c15895" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/stander/class.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/learnDart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/learnDart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/stander/catch.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/stander/catch.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +30,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1QpfL7rWaOxqvDmwpgxNbG4cOTz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -61,14 +65,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.rxdart.dart">
-    <configuration name="bibao.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/bibao.dart" />
+  <component name="RunManager" selected="Dart Command Line App.class.dart">
+    <configuration name="catch.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/catch.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="catch.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/catch.dart" />
+    <configuration name="class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/class.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -89,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.rxdart.dart" />
-        <item itemvalue="Dart Command Line App.catch.dart" />
+        <item itemvalue="Dart Command Line App.class.dart" />
         <item itemvalue="Dart Command Line App.learnDart.dart" />
+        <item itemvalue="Dart Command Line App.catch.dart" />
+        <item itemvalue="Dart Command Line App.rxdart.dart" />
         <item itemvalue="Dart Command Line App.testFunction.dart" />
-        <item itemvalue="Dart Command Line App.bibao.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568472400211</updated>
-      <workItem from="1568472402864" duration="10433000" />
+      <workItem from="1568472402864" duration="15541000" />
     </task>
     <servers />
   </component>
@@ -139,6 +143,7 @@
       <configuration name="DartCommandLineRunConfigurationType">
         <watch expression="isNoble().first()" language="Dart" />
         <watch expression="set.first()" language="Dart" />
+        <watch expression="simple2.toString()" language="Dart" />
       </configuration>
     </watches-manager>
   </component>
