@@ -1,4 +1,8 @@
+import 'dart:math';
+
 class Point {
+  // 静态变量/类变量
+  static const width = 16;
   num x = 1;
   num y = 1;
   Point(){
@@ -10,6 +14,13 @@ class Point {
   @override
   String toString() {
     return 'x:$x, y:$y';
+  }
+
+  // 静态方法/类方法
+  static num distanceBetween(Point a, Point b) {
+    var dx = a.x - b.x;
+    var dy = a.y - b.y;
+    return sqrt(dx * dx + dy * dy);
   }
 }
 
