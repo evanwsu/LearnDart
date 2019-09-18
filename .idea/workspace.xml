@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc19663-c204-4d0b-87f8-70b7b6c15895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/stander/dart2.3.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/stander/getset.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/stander/implicit.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/stander/mixins.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/stander/operators.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/stander/testTypedef.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/stander/class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/stander/class.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.class.dart">
+  <component name="RunManager" selected="Dart Command Line App.testTypedef.dart">
     <configuration name="class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/class.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -76,11 +71,6 @@
     </configuration>
     <configuration name="dart2.3.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/dart2.3.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getset.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/getset.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -94,13 +84,18 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="testTypedef.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/testTypedef.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.testTypedef.dart" />
         <item itemvalue="Dart Command Line App.class.dart" />
         <item itemvalue="Dart Command Line App.mixins.dart" />
         <item itemvalue="Dart Command Line App.dart2.3.dart" />
         <item itemvalue="Dart Command Line App.implicit.dart" />
-        <item itemvalue="Dart Command Line App.getset.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568472400211</updated>
-      <workItem from="1568472402864" duration="24960000" />
+      <workItem from="1568472402864" duration="28209000" />
     </task>
     <servers />
   </component>
