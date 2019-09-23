@@ -48,6 +48,7 @@ class ImmutablePoint {
   final num x;
   final num y;
   const ImmutablePoint(this.x, this.y);
+  // 只有是常量构造函数才能常量声明
   static final ImmutablePoint origin = const ImmutablePoint(0, 0);
 
   @override
@@ -102,6 +103,8 @@ void main(){
 
   print('constant constructors --------------------------');
   print('ImmutablePoint.origin : ${ ImmutablePoint.origin.toString()}');
+  var immutablePoint = ImmutablePoint(1,2);
+  print(immutablePoint);
 
   print('factory constructors ---------------------------');
   Logger logger = Logger('book');
