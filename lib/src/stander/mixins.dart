@@ -1,46 +1,37 @@
-// 单纯的mixin类
-mixin Musical{
-  bool canPlayPiano = false;
-  // 能够作曲
-  bool canCompose = false;
-  // 能够指挥
-  bool canConduct = false;
+/// mixin的方法会覆盖父类中的方法
 
-  void entertainMe() {
-    if (canPlayPiano) {
-      print('弹吉他...');
-    }
-    if (canConduct) {
-      print('指挥...');
-    }
-    if (canCompose ){
-      print('作曲...');
-    }
+/// 使用on 来指定当前类必须实现State
+mixin Person on State{
+  @override
+  void dispose() {
+    print('Person dispose');
+    // super 会指向当前对象的super.dispose
+    super.dispose();
   }
 }
 
-class Musician with Musical {
-  var name;
-  Musician(String musicianName){
-    name = musicianName;
-    canPlayPiano = true;
-    canCompose = true;
+abstract class State{
+  void dispose(){
+    print('State dispose');
   }
 }
 
-class Maestro with Musical{
-  var name;
-  Maestro(String maestroName) {
-    name = maestroName;
-    canPlayPiano = true;
-    canCompose = true;
-    canConduct = true;
+abstract class BaseStudent extends State{
+  @override
+  void dispose() {
+    print('BaseStudent dispose');
+  }
+}
+class Student extends BaseStudent with Person{
+
+  @override
+  void dispose() {
+    super.dispose();
+    print('Student dispose');
   }
 }
 
 void main(){
-  Musician musician = Musician('李玉刚');
-  Maestro maestro = Maestro('李大毛');
-  musician.entertainMe();
-  maestro.entertainMe();
+  Student student = Student();
+  student.dispose();
 }
