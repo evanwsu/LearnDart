@@ -22,7 +22,7 @@ void main(){
   print("Price: ${d(x, 3,1)} USD");
 
   print('map :$map');
-  // ==?表示如果当前值为null就赋值给它
+  // ??= 表示如果当前值为null就赋值给它
   t_map ??= map;
   print('t_map: $t_map');
 
@@ -40,8 +40,6 @@ void main(){
   final start3  = DateTime.now().millisecondsSinceEpoch;
   lists.forEach((vale) => {});
   print('for each use time: ${DateTime.now().millisecondsSinceEpoch - start3}');
-
-
-
+  print((24 - (24 / 1.35).round()) / 2);
 }
 

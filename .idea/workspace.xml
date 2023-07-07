@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc19663-c204-4d0b-87f8-70b7b6c15895" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/src/library/test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/library/test2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/library/test3.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/learnDart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/learnDart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/rx/rxdart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/rx/rxdart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,39 +70,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.learnDart.dart">
-    <configuration name="class2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/class2.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="format.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/format/format.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getset.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/getset.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.test.dart">
     <configuration name="learnDart.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/learnDart.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="mixins.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/stander/mixins.dart" />
+    <configuration name="rxdart.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/rx/rxdart.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/library/test.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Dart Command Line App.learnDart.dart" />
+      <item itemvalue="Dart Command Line App.rxdart.dart" />
+      <item itemvalue="Dart Command Line App.test.dart" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.test.dart" />
+        <item itemvalue="Dart Command Line App.rxdart.dart" />
         <item itemvalue="Dart Command Line App.learnDart.dart" />
-        <item itemvalue="Dart Command Line App.mixins.dart" />
-        <item itemvalue="Dart Command Line App.getset.dart" />
-        <item itemvalue="Dart Command Line App.class2.dart" />
-        <item itemvalue="Dart Command Line App.format.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +116,12 @@
       <workItem from="1571368431082" duration="31000" />
       <workItem from="1571368467417" duration="7215000" />
       <workItem from="1572312629285" duration="12000" />
+      <workItem from="1572848091735" duration="32000" />
+      <workItem from="1572848537839" duration="8958000" />
+      <workItem from="1573720640610" duration="56000" />
+      <workItem from="1574748054219" duration="5591000" />
+      <workItem from="1574919363020" duration="133000" />
+      <workItem from="1575009703516" duration="6789000" />
     </task>
     <servers />
   </component>
@@ -155,6 +160,7 @@
         <watch expression="&quot;Price: ${d(x, 3,1)} USD&quot;" language="Dart" />
         <watch expression="d(1.2, 3, 1)" language="Dart" />
         <watch expression="1.2.toStringAsFixed(1).padLeft(5, &quot;&quot;)" language="Dart" />
+        <watch expression="Test2.hello" language="Dart" />
       </configuration>
     </watches-manager>
   </component>
